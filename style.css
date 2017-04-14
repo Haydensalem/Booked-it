@@ -1,0 +1,134 @@
+body {
+    background-color: #ECF0F1;
+}
+
+
+
+h1 {
+    color: #2D3E50;
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 3%;
+
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #2D3E50;
+    background-color: #ECF0F1;
+    background-image: none;
+    border: 1px solid #FF6F6F;
+    border-radius: 5px !important;
+    padding-left: 37px;
+}
+
+
+
+.form-control:focus{
+    border-color:#FF6F6F;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.fa-search{
+    position: absolute;
+    left: 12px;
+    top: 8px;
+    z-index: 100;
+    color: #FF6F6F;
+    font-size: 18px;
+}
+
+.add-info{
+    background-color: #2D3E50;
+    margin-top: 1%;
+    padding-top: 8%;
+    padding-left: 4%;
+    padding-bottom: 5%;
+}
+
+.btn{
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #FF6F88;
+    background-color: transparent;
+    color: #FF5F6F;
+    border-radius: 0;
+    margin-bottom: 5%;
+}
+
+.btn:hover{
+  color: #FF5F6F;
+}
+
+
+.btn:focus{
+    outline:0;
+    outline-offset: 0;
+}
+
+.btn-group{
+    /*margin: 5% 0;*/
+    /*padding: 0;*/
+
+}
+
+.dropdown-toggle:focus{
+    color: #FF6F88;
+}
+
+
+.dropdown-menu{
+    position: inherit;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100%;
+    padding: 10px 10px;
+    margin: -10px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border: 1px solid #FF6F6F;
+    border-radius: 0;
+}
+
+.dropdown-menu>li>a{
+    color: #FF6F88;
+    text-align: center;
+    margin-bottom: 10px;
+    border: solid 1px;
+    margin-top: 15px;
+}
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+    background-color:#5F6B78;
+    color: #ECF0F1;
+}
+
+.dropdown-menu:focus{
+    color: #FF6F88;
+}
+
+.box{
+    background-color: #2D3E50;
+    text-align: center;
+    color: #FF5F6F;
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+
+@media (max-width: 992px) {
+    .all {
+        margin-left: 0;
+    }
